@@ -96,7 +96,7 @@ As others filters, the date filter must be explicitly enabled:
 
 services:
     # Enable date filter for for the property "dateProperty" of the resource "resource.offer"
-    resource.date_filter:
+    resource.offer.date_filter:
         parent:    "api.doctrine.orm.date_filter"
         arguments: [ { "dateProperty": ~ } ]
 
